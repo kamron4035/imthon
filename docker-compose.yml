@@ -1,0 +1,10 @@
+version: '3.11'
+
+services:
+  bot:
+    build: .
+    working_dir: /app
+    container_name: exam_bot
+    environment:
+      - TOKEN={5822536726:AAE2V49_GGmsNQ_8iXPtnMheAVRMrSMwpqs}
+    command: python unli_delate.py
